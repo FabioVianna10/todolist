@@ -31,17 +31,17 @@ const Todolist = () => {
 
         <div className="containerLista">
           <ul>
-            {todos.map((todo, index) => (
-              <li className="lista" key={index}>
-                {todo}
+            <div className="containerLi">
+              {todos.map((todo, index) => (
+                <li className="lista" key={index}>
+                  {todo}
 
-                <div className="boxBtn">
-                <button onClick={() => deleteTodo(index)} className="btn">
-                  X
-                </button>
-                </div>
-              </li>
-            ))}
+                  <button onClick={() => deleteTodo(index)} className="btn">
+                    X
+                  </button>
+                </li>
+              ))}
+            </div>
           </ul>
         </div>
       </div>
