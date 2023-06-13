@@ -10,15 +10,17 @@ body {
 }
 .box {
   width: 100%;
-  height: 50%;
+  height: auto;
 }
 .container {
   text-align: center;
   margin-top: 5rem;
+  width: 100%;
+  height: auto;
 }
 h1 {
   font-size: 5rem;
-  margin-top: 15rem;
+  margin-top: 13rem;
   margin-bottom: 5rem;
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,20 +62,21 @@ button:hover {
 
 .containerLista {
   padding: 10px;
+  width: 100%;
+  height: auto;
 }
 
 .lista {
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.855);
   border-radius: 15px;
   margin: auto;
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 15px;
   height: 60px;
-  width: 20%;
-  gap: 5px;
+  width: 50%;
   font-weight: 600;
   text-transform: capitalize;
 }

@@ -23,6 +23,7 @@ const Todolist = () => {
         <h1>Todo List!</h1>
         <input
           value={input}
+          maxLength={50}
           onChange={(e) => setInput(e.target.value)}
           type="text"
         />
