@@ -34,9 +34,12 @@ const Todolist = () => {
             {todos.map((todo, index) => (
               <li className="lista" key={index}>
                 {todo}
+
+                <div className="boxBtn">
                 <button onClick={() => deleteTodo(index)} className="btn">
                   X
                 </button>
+                </div>
               </li>
             ))}
           </ul>
